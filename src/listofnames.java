@@ -1,0 +1,15 @@
+import java.util.Random;
+
+public class listofnames
+{ 
+	private static Random random = new Random();
+    
+ private static String[] lists = new String[]{"Noah","Liam","Mason","Jacob","William","Ethan","James","Alexander","Michael","Benjamin","Elijah","Daniel","Aiden","Logan","Matthew","Lucas","Jackson","David","Oliver","Jayden","Joseph","Gabriel","Samuel","Carter","Anthony","John","Dylan","Luke","Henry","Andrew","Isaac","Christopher","Joshua","Wyatt","Sebastian","Owen","Caleb","Nathan","Ryan","Jack","Hunter","Levi","Christian","Jaxon","Julian","Landon","Grayson","Jonathan","Isaiah","Charles","Thomas","Aaron","Eli","Connor","Jeremiah","Cameron","Josiah","Adrian","Colton","Jordan","Brayden","Nicholas","Robert","Angel","Hudson","Lincoln","Evan","Dominic","Austin","Gavin","Nolan","Parker","Adam","Chase","Jace","Ian","Cooper","Easton","Kevin","Jose","Tyler","Brandon","Asher","Jaxson","Mateo","Jason","Ayden","Zachary","Carson","Xavier","Leo","Ezra","Bentley","Sawyer","Kayden","Blake","Nathaniel","Ryder","Theodore","Elias","Tristan","Roman","Leonardo","Camden","Brody","Luis","Miles","Micah","Vincent","Justin","Greyson","Declan","Maxwell","Juan","Cole","Damian","Carlos","Max","Harrison","Weston","Brantley","Braxton","Axel","Diego","Abel","Wesley","Santiago","Jesus","Silas","Giovanni","Bryce","Jayce","Bryson","Alex","Everett","George","Eric","Ivan","Emmett","Kaiden","Ashton","Kingston","Jonah","Jameson","Kai","Maddox","Timothy","Ezekiel","Ryker","Emmanuel","Hayden","Antonio","Bennett","Steven","Richard","Jude","Luca","Edward","Joel","Victor","Miguel","Malachi","King","Patrick","Kaleb","Bryan","Alan","Marcus","Preston","Abraham","Calvin","Colin","Bradley","Jeremy","Kyle","Graham","Grant","Jesse","Kaden","Alejandro","Oscar","Jase","Karter","Maverick","Aidan","Tucker","Avery","Amir","Brian","Iker","Matteo","Caden","Zayden","Riley","August","Mark","Maximus","Brady","Kenneth","Paul","Jaden","Nicolas","Beau","Dean","Jake","Peter","Xander","Elliot","Finn","Derek","Sean","Cayden","Elliott","Jax","Jasper","Lorenzo","Omar","Beckett","Rowan","Gael","Corbin","Waylon","Myles","Tanner","Jorge","Javier","Zion","Andres","Charlie","Paxton","Emiliano","Brooks","Zane","Simon","Judah","Griffin","Cody","Gunner","Dawson","Israel","Rylan","Gage","Messiah","River","Kameron","Stephen","Francisco","Clayton","Zander","Chance","Eduardo","Spencer","Lukas","Damien","Dallas","Conner","Travis","Knox","Raymond","Peyton","Devin","Felix","Jayceon","Collin","Amari","Erick","Cash","Jaiden","Fernando","Cristian","Josue","Keegan","Garrett","Rhett","Ricardo","Martin","Reid","Seth","Andre","Cesar","Titus","Donovan","Manuel","Mario","Caiden","Adriel","Kyler","Milo","Archer","Jeffrey","Holden","Arthur","Karson","Rafael","Shane","Lane","Louis","Angelo","Remington","Troy" };
+ private static int len = lists.length;
+ 
+ 
+ public static String oneNameOnly()
+        {
+           return lists[random.nextInt(len)];
+        }
+}
